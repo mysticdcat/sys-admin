@@ -1,0 +1,20 @@
+.tip {
+  background-color: rgb(236, 248, 255);
+  padding: 8px 16px;
+  border-radius: 4px;
+  border-left: 5px solid rgb(80, 191, 255);
+  margin: 20px 0px;
+}
+.warning {
+  background-color: rgb(255, 246, 247);
+  padding: 8px 16px;
+  border-radius: 4px;
+  border-left: 5px solid rgb(254, 108, 111);
+  margin: 20px 0px;
+}
+.tip > p,
+.warning > p {
+  font-size: 14px;
+  color: rgb(94, 109, 130);
+  line-height: 1.5em;
+}
